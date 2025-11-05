@@ -69,6 +69,37 @@ ior<!DOCTYPE html>
       border-radius: 50%;
       object-fit: cover;
     }
+
+        .member h3 {
+  font-size: 1.3rem; /* smaller text — default is around 1.25–1.5rem */
+  font-weight: 600; /* keeps it readable */
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+    .member p {
+  font-size: 0.1.1rem; /* smaller text for positions */
+  color: #555;       /* optional: slightly lighter color */
+  margin-bottom: 0.5rem;
+}
+
+    
+    .member-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+    .top-row {
+  margin-bottom: 1rem;
+    }
+
+.bottom-row {
+  margin-top: 1rem;
+   }
+    
     footer {
       text-align: center;
       padding: 20px;
@@ -178,6 +209,29 @@ ior<!DOCTYPE html>
     <section id="news" class="section">
       <h2>News</h2>
       <p>-</p>
+    </section>
+
+    <section id="partners" class="section">
+      <h2>Partners</h2>
+      <div class="members">
+
+        <!-- Row 1: Heads -->
+        <div class="member-row top-row">
+          <div class="member">
+            <img src="img/Adaptive-AIMed-Hub.jpg" alt="Adaptive-AIMed Hub">
+            <h3>Adaptive-AIMed Lab</h3>
+            <p>A research center on AI for Medicine</p>
+            <a href="https://ashkanshakarami.github.io/Adaptive-AIMed-Lab.github.io/" class="btn btn-primary">Webpage</a>
+            </div>
+
+          <div class="member">
+            <img src="img/UKB.jpg" alt="UKB">
+            <h3>UKB</h3>
+            <p>Universitätsklinikum Bonn: UKB</p>
+            <a href="https://www.ukbonn.de/" class="btn btn-primary">Webpage</a>
+            </div>
+
+          </div>
     </section>
 
     <section id="contact" class="section">
