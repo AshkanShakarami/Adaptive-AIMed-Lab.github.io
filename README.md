@@ -1,1 +1,1 @@
-# Adaptive-AIMed-Lab.github.io
+# Adaptive-AIMed Laboratory
